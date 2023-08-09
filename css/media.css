@@ -1,0 +1,113 @@
+/* Media zapyty */
+
+@media screen and (min-width:428px) {
+    .container {
+        max-width: 428px;
+       
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+    .advantages-item {
+            width: calc((100% - 24px) / 2);
+    
+    }
+        .advantages-list {
+            gap: 72px 24px; 
+            
+}
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+}
+.team-item {
+    width: calc((100% - 24px) / 2);
+    margin-top: 0px;
+}
+.team-titl {
+    margin-bottom: 72px;
+}
+}
+
+@media screen and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+    }
+        .advantages {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+    .advantages-item {
+        width: calc((100% - 72px) / 4);
+        }
+     .advantages-icons {
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            background-color: var(--cloud, #F4F4FD);
+            border-radius: 4px;
+            margin-bottom: 8px;
+            width: 264px;
+            height: 112px;
+    }
+        .advantages-list {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            gap: 24px;
+        }
+        .advantages-item-icons {
+            width: calc((100% - 72px) / 4);
+                }
+        .advantages-titl {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            max-width: 264px;
+    }
+        .services {
+            display: flex;
+            padding-bottom: 120px;
+            
+        }
+                .services-list {
+                    display: flex;
+                }
+        
+                .services-item {
+                    margin-right: 24px;
+                    width: calc((100% - 48px) / 3);
+        
+                }
+        
+                .services-item:last-child {
+                    margin-right: 0;
+                }
+        
+                .services-titl {
+                    color: var(--navyblue, #2E2F42);
+                    text-align: center;
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 1.11;
+                    letter-spacing: 0.02em;
+                    text-transform: capitalize;
+                    margin-bottom: 72px;
+                }
+                .team {
+                    padding: 120px 0px;
+                    
+                }
+                .team-list {
+                flex-wrap: nowrap;
+                gap: 24px;
+                }
+                .team-item {
+                    width: calc((100% - 72px) / 4);
+}
+}
