@@ -1,11 +1,22 @@
 /* Media zapyty */
+                                        /*MOBILE 428*/
+
+
 
 @media screen and (min-width:428px) {
     .container {
         max-width: 428px;
        
     }
+    .customers-item{
+        height: 88px;
+        }
+        
 }
+
+
+                                         /*PLANCHET 768*/
+
 
 @media screen and (min-width:768px) {
     .container {
@@ -13,11 +24,14 @@
     }
     .advantages-item {
             width: calc((100% - 24px) / 2);
-    
-    }
+                }
         .advantages-list {
             gap: 72px 24px; 
             
+}
+.team {
+    padding-left: 92px;
+        padding-right: 92px;
 }
 .team-list {
     display: flex;
@@ -31,7 +45,31 @@
 .team-titl {
     margin-bottom: 72px;
 }
+
+.customers {
+    padding-left: 92px;
+    padding-right: 92px;
 }
+.customers-item {
+    
+    width: calc((100% - (24px*2)) / 3);
+    
+}
+.hero {
+    max-width: 768px;
+}
+.hero-titl {
+    font-size: 56px;
+    max-width: 496px;
+}
+.hero-button {
+    margin-top: 36px;
+}
+}
+
+
+                                            /*DEXTOP 1158*/
+
 
 @media screen and (min-width:1158px) {
     .container {
@@ -109,5 +147,31 @@
                 }
                 .team-item {
                     width: calc((100% - 72px) / 4);
+}
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px; 
+}
+.customers-list {
+    gap: 24px;
+}
+.customers-item {
+    width: calc((100% - 120px) / 6);
+    max-width: 168px;
+}
+.hero {
+    max-width: 1440px;
+    height: 600px;
+    padding-bottom: 188px;
+    padding-top: 188px;
+}
+
+.hero-titl {
+    line-height: 1.07;
+    
+}
+
+.hero-button {
+    margin-top: 48px;
 }
 }
