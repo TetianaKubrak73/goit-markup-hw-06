@@ -132,6 +132,8 @@
     width: 264px;
     margin-right: 24px;
     margin-bottom: 72px;
+    text-align: left;
+
 }
 .footer-social-list {
    
@@ -141,14 +143,22 @@
     gap: 24px;
 }
 
-.foote-form-tex {
-    text-align: right;
+.foote-form-text {
     margin-right: 24px;
+    text-align: left;
     }
+
+.footer-social-text {
+    text-align: left;
 }
+
 .footer-form-input {
     width: 264px; 
 }
+}
+
+
+
 
                                             /*DEXTOP 1158*/
 
@@ -283,18 +293,11 @@ height: 312px;
 .footer-logo-link {
    
 }
-.footer-text {
-    text-align: left;
-}
+
 .footer-container-form {
     margin-left: 80px;
 }
-.footer-social-text {
-    text-align: left;
-}
-.foote-form-text {
-    text-align: left;
-}
+
 .modal {
     
 }
