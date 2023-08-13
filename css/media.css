@@ -24,9 +24,7 @@
          .modal {
             width: 392px;
          }
-        .footer-logo-link {
-            /* padding-left: 140px; */
-        }
+       
         .footer-text {
             display: flex;
             justify-content: center;
@@ -65,10 +63,7 @@
     .advantages-titl {
         text-align: left;
     }        
-.team {
-    /* padding-left: 92px;
-    padding-right: 92px; */
-}
+
 .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -82,10 +77,7 @@
     margin-bottom: 72px;
 }
 
-.customers {
-    /* padding-left: 92px;
-    padding-right: 92px; */
-}
+
 .customers-item {
     
     width: calc((100% - (24px*2)) / 3);
@@ -164,9 +156,7 @@
     
 
 }
-.footer-social-list {
-   
-}
+
 .footer-form {
     display: flex;
     gap: 24px;
@@ -353,7 +343,4 @@ text-align: left;
     margin-left: 80px;
 }
 
-.modal {
-    
-}
 }
