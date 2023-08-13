@@ -25,7 +25,7 @@
             width: 392px;
          }
         .footer-logo-link {
-            padding-left: 140px;
+            /* padding-left: 140px; */
         }
         .footer-text {
             display: flex;
@@ -34,6 +34,9 @@
             max-width: 268px;
 
                 }
+        .footer-form-input {
+            width: 398px;
+        }
 }
 
 
@@ -44,17 +47,27 @@
     .container {
         max-width: 768px;
     }
+    .tablet {
+        width: 584px;
+    }
+
+    .header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
         
     .advantages-item {
             width: calc((100% - 24px) / 2);
                 }
         .advantages-list {
             gap: 72px 24px; 
-            
-}
+            }
+    .advantages-titl {
+        text-align: left;
+    }        
 .team {
-    padding-left: 92px;
-        padding-right: 92px;
+    /* padding-left: 92px;
+    padding-right: 92px; */
 }
 .team-list {
     display: flex;
@@ -70,8 +83,8 @@
 }
 
 .customers {
-    padding-left: 92px;
-    padding-right: 92px;
+    /* padding-left: 92px;
+    padding-right: 92px; */
 }
 .customers-item {
     
@@ -112,7 +125,9 @@
      
 }
 .header-adress-list {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 .menu-open-btn {
     display: none;
@@ -127,12 +142,26 @@
 .page {
     flex-direction: row;
     flex-wrap: wrap;
+    width: 584px;
+    gap: 72px 24px;
 }
+
+.footer-wramp {
+    margin-bottom: 0;
+    
+}
+
+.footer-logo-link {
+    text-align: left;
+}
+
 .footer-text {
     width: 264px;
-    margin-right: 24px;
-    margin-bottom: 72px;
+    /* margin-right: 24px;
+    margin-bottom: 72px; */
     text-align: left;
+    margin-bottom: 0;
+    
 
 }
 .footer-social-list {
@@ -148,8 +177,16 @@
     text-align: left;
     }
 
+    .footer-social {
+        margin: 0;
+    }
+
 .footer-social-text {
     text-align: left;
+}
+
+.footer-social-item {
+    margin-bottom: 0;
 }
 
 .footer-form-input {
@@ -166,9 +203,16 @@
 @media screen and (min-width:1158px) {
     .container {
         max-width: 1158px;
+        padding-left: 15px;
+            padding-right: 15x;
     }
+        .tablet {
+            width: 100%;
+        }
         .header-adress-list {
             display: flex;
+            flex-direction: row;
+            gap: 40px;
         }
         .advantages {
             padding-top: 120px;
@@ -202,7 +246,11 @@
             font-weight: 500;
             line-height: 1.2;
             max-width: 264px;
+            text-align: left;
     }
+        .advantages-text {
+            font-weight: 400;
+        }
         .services {
             display: flex;
             padding-bottom: 120px;
@@ -246,6 +294,9 @@
 .customers {
     padding-top: 120px;
     padding-bottom: 120px; 
+            padding-left: 0;
+            padding-right: 0;
+        
 }
 .customers-list {
     gap: 24px;
@@ -273,25 +324,29 @@
 .hero-titl {
     line-height: 1.07;
     
+    
 }
 
 .hero-button {
     margin-top: 48px;
 }
 .page {
-    flex-wrap: nowrap
+    flex-wrap: nowrap;
+    width: 100%;
 }
 .footer {
 padding-top: 100px;
 padding-bottom: 100px;
 height: 312px;
+/* width: 1440px; */
 }
 .footer-wramp {
     margin-right: 120px;
     justify-content: left;
 }
+
 .footer-logo-link {
-   
+text-align: left;
 }
 
 .footer-container-form {
