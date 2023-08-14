@@ -139,12 +139,13 @@
 }
 
 .footer-wramp {
-    margin-bottom: 0;
+    margin: 0;
     
 }
 
 .footer-logo-link {
     text-align: left;
+    padding-left: 0;
 }
 
 .footer-text {
@@ -194,7 +195,7 @@
     .container {
         max-width: 1158px;
         padding-left: 15px;
-            padding-right: 15x;
+            padding-right: 15px;
     }
         .tablet {
             width: 100%;
@@ -204,6 +205,9 @@
             flex-direction: row;
             gap: 40px;
         }
+                .header-adress-link {
+                font-size: 16px;
+                }
         .advantages {
             padding-top: 120px;
             padding-bottom: 120px;
@@ -300,7 +304,7 @@
     height: 600px;
     padding-bottom: 188px;
     padding-top: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-x1.jpg);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -308,7 +312,7 @@
 (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero-bg-2x.jpg);
+            url(../images/hero-x2.jpg);
     }
 }
 .hero-titl {
@@ -323,6 +327,7 @@
 .page {
     flex-wrap: nowrap;
     width: 100%;
+    gap: 0 0;
 }
 .footer {
 padding-top: 100px;
@@ -335,9 +340,6 @@ height: 312px;
     justify-content: left;
 }
 
-.footer-logo-link {
-text-align: left;
-}
 
 .footer-container-form {
     margin-left: 80px;
